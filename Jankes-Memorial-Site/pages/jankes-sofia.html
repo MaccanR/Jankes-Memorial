@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jankes Bror Wilhlelm — Jankesin perhe</title>
-  <meta name="description" content="Muistosivusto Jankes Bror Wilhlelm -henkilöstä." />
+  <title>Jankes Sofia — Jankesin perhe</title>
+  <meta name="description" content="Muistosivusto Jankes Sofia -henkilöstä." />
 
   <!-- Tailwind CSS CDN for quick styling -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,8 +52,8 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
-      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Bror Wilhlelm</h1>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Sofia</h1>
     </div>
   </header>
 
@@ -63,7 +63,7 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Jankes Bror Wilhlelm" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Jankes Sofia" class="w-full h-full object-cover">
         </div>
       </div>
 
@@ -75,16 +75,38 @@
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Sukupuoli:">Sukupuoli:</dt>
-              <dd class="text-neutral-700" data-i18n="Mies">Mies</dd>
+              <dd class="text-neutral-700" data-i18n="Nainen">Nainen</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700">Ei tiedossa</dd>
+              <dd class="text-neutral-700">29. <span data-i18n="maaliskuuta">maaliskuuta</span> 1801</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
-              <dd class="text-neutral-700">3. <span data-i18n="elokuuta">elokuuta</span> 1878</dd>
+              <dd class="text-neutral-700">17. <span data-i18n="tammikuuta">tammikuuta</span> 1889 (87-<span data-i18n="vuotias">vuotias</span>)</dd>
             </div>
+          </div>
+
+          <div class="border-t border-neutral-200 pt-6 mt-6">
+            <h3 class="text-lg font-semibold mb-4" data-i18n="Lähisukulaiset">Lähisukulaiset</h3>
+            <dl class="space-y-3 text-sm">
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Vanhemmat:">Vanhemmat:</dt>
+                <dd class="text-neutral-700">Erik Jakobsson Tallberg <span data-i18n="ja">ja</span> Maria Elisabet Bergström (Pagenkoff)</dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Puoliso:">Puoliso:</dt>
+                <dd class="text-neutral-700">Daniel Reinhold Jankes</dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Lapset:">Lapset:</dt>
+                <dd class="text-neutral-700">Anders Birger Tallberg, Karolina Charlotta Nyberg, Carl Reinhold Jankes, <a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik Jankes</a></dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900">Sisarukset:</dt>
+                <dd class="text-neutral-700">Erik Eriksson Tallberg, Anders Tallberg, Eva Kristina Selin</dd>
+              </div>
+            </dl>
           </div>
         </div>
       </div>

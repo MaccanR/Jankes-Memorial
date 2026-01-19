@@ -18,6 +18,7 @@ const translations = {
     'Nainen': 'Nainen',
     'Mies': 'Mies',
     'Ei tiedossa': 'Ei tiedossa',
+    'haudattu': 'haudattu',
     'ja': 'ja',
     'vuotias': 'vuotias',
     'Helsinki': 'Helsinki',
@@ -28,7 +29,8 @@ const translations = {
     'Yrke:': 'Yrke:',
     'Suomalainen taidemaalari': 'Suomalainen taidemaalari',
     'Tietoa': 'Tietoa',
-    // Kuukaudet
+    'carl-emil-biography': 'Carl Emil Jankes oli suomalainen taidemaalari. Hän opiskeli Helsingin yliopiston piirustussalissa 1905–1906 ja Suomen taideyhdistyksen piirustuskoulussa 1905–1908. Jankes teki opintomatkat Saksaan 1905 ja 1907, Pariisiin 1909-1913 sekä Pariisiin ja Roomaan 1926. Hänen töitään oli ensimmäisen kerran näytteillä Helsingissä 1910. Jankes toimi Vapaan taidekoulun opettajana 1936–1939.',
+    'carl-emil-painting': 'Jankes maalasi asetelmia, henkilökuvia ja maisemia.',
     'tammikuuta': 'tammikuuta',
     'helmikuuta': 'helmikuuta',
     'maaliskuuta': 'maaliskuuta',
@@ -63,7 +65,8 @@ const translations = {
     'hieman muiden edessä': 'hieman muiden edessä',
     'o.s.': 'o.s.',
     'ja': 'ja',
-    'indikoi_comment': '("\\ indikoi vinoon alas oikealle)'
+    'indikoi_comment': '("\\ indikoi vinoon alas oikealle)',
+    'footer-jankes-message': 'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.'
   },
   sv: {
     'Palaa pääsivulle': 'Tillbaka till startsidan',
@@ -74,6 +77,7 @@ const translations = {
     'Syntynyt:': 'Född:',
     'Kuollut:': 'Död:',
     'Hautapaikka:': 'Begravningsplats:',
+    'Hautauspäivä:': 'Begravningsdag:',
     'Ammatti:': 'Yrke:',
     'Vanhemmat:': 'Föräldrar:',
     'Puoliso:': 'Make:',
@@ -83,6 +87,7 @@ const translations = {
     'Nainen': 'Kvinna',
     'Mies': 'Man',
     'Ei tiedossa': 'Okänt',
+    'haudattu': 'begravd',
     // Kuukaudet
     'tammikuuta': 'januari',
     'helmikuuta': 'februari',
@@ -104,8 +109,8 @@ const translations = {
     'Ammatti:': 'Yrke:',
     'Suomalainen taidemaalari': 'Finländsk konstnär',
     'Tietoa': 'Information',
-    'Carl Emil Jankes oli suomalainen taidemaalari. Hän opiskeli Helsingin yliopiston piirustussalissa 1905–1906 ja Suomen taideyhdistyksen piirustuskoulussa 1905–1908. Jankes teki opintomatkat Saksaan 1905 ja 1907, Pariisiin 1909-1913 sekä Pariisiin ja Roomaan 1926. Hänen töitään oli ensimmäisen kerran näytteillä Helsingissä 1910. Jankes toimi Vapaan taidekoulun opettajana 1936–1939.': 'Carl Emil Jankes var en finländsk konstnär. Han studerade vid Helsingfors universitets ritsal 1905–1906 och vid Finlands konstförenings ritskola 1905–1908. Jankes gjorde studieresa till Tyskland 1905 och 1907, till Paris 1909-1913 samt till Paris och Rom 1926. Hans verk ställdes ut för första gången i Helsingfors 1910. Jankes fungerade som lärare vid Fria konstskolan 1936–1939.',
-    'Jankes maalasi asetelmia, henkilökuvia ja maisemia.': 'Jankes målade stilleben, porträtt och landskap.',
+    'carl-emil-biography': 'Carl Emil Jankes var en finländsk konstnär. Han studerade vid Helsingfors universitets ritsal 1905–1906 och vid Finlands konstförenings ritskola 1905–1908. Jankes gjorde studieresa till Tyskland 1905 och 1907, till Paris 1909-1913 samt till Paris och Rom 1926. Hans verk ställdes ut för första gången i Helsingfors 1910. Jankes fungerade som lärare vid Fria konstskolan 1936–1939.',
+    'carl-emil-painting': 'Jankes målade stilleben, porträtt och landskap.',
     // Footer
     '© Jankesin perheen muistosivusto': '© Jankesin familjs minneswebbplats',
     'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.': 'Webbplatsen är avsedd för minnet och respekt.',
@@ -131,7 +136,8 @@ const translations = {
     'längre fram': 'längre fram',
     'litet framför de andra': 'litet framför de andra',
     'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013': 'Originalfotot inskannat och texten renskriven av Mona Grönstrand 13.11.2013',
-    'indikoi_comment': '("\\ indikerar snett ned till höger)'
+    'indikoi_comment': '("\\ indikerar snett ned till höger)',
+    'footer-jankes-message': 'Webbplatsen är avsedd för minnet och respekt.'
   }
 };
 
@@ -150,8 +156,12 @@ function changeLanguage(lang) {
   // Käännä kaikki teksti
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
-    if (translations[lang][key]) {
+    // Käytä aina data-i18n attribuutin arvoa avaimena
+    if (translations[lang] && translations[lang][key]) {
       element.textContent = translations[lang][key];
+      console.log('Translated:', key, '→', translations[lang][key]);
+    } else {
+      console.warn('Missing translation for:', key, 'in language:', lang);
     }
   });
 }

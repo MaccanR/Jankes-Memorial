@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Silander Signe Maria — Jankesin perhe</title>
-  <meta name="description" content="Muistosivusto Silander Signe Maria -henkilöstä." />
+  <title>Jankes Bror Gunnar — Jankesin perhe</title>
+  <meta name="description" content="Muistosivusto Jankes Bror Gunnar -henkilöstä." />
 
   <!-- Tailwind CSS CDN for quick styling -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,8 +52,8 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
-      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Silander Signe Maria</h1>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Bror Gunnar</h1>
     </div>
   </header>
 
@@ -63,27 +63,31 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Silander Signe Maria" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Jankes Bror Gunnar" class="w-full h-full object-cover">
         </div>
       </div>
 
       <!-- Content -->
       <div class="md:col-span-2">
         <div class="bg-white rounded-lg p-8 border border-neutral-200">
-          <h2 class="text-2xl font-semibold mb-4">Henkilötiedot</h2>
+          <h2 class="text-2xl font-semibold mb-4" data-i18n="Henkilötiedot">Henkilötiedot</h2>
           
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Sukupuoli:">Sukupuoli:</dt>
-              <dd class="text-neutral-700" data-i18n="Nainen">Nainen</dd>
+              <dd class="text-neutral-700" data-i18n="Mies">Mies</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700">20. <span data-i18n="helmikuuta">helmikuuta</span> 1903</dd>
+              <dd class="text-neutral-700">14. <span data-i18n="huhtikuuta">huhtikuuta</span> 1914</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
-              <dd class="text-neutral-700">17. <span data-i18n="joulukuuta">joulukuuta</span> 1981 (78-<span data-i18n="vuotias">vuotias</span>)</dd>
+              <dd class="text-neutral-700">34. <span data-i18n="maaliskuuta">maaliskuuta</span> 2001 (87-<span data-i18n="vuotias">vuotias</span>)</dd>
+            </div>
+            <div class="border-b border-neutral-200 pb-3">
+              <dt class="font-semibold text-neutral-900" data-i18n="Hautapaikka:">Hautapaikka:</dt>
+              <dd class="text-neutral-700">Hietaniemen hautausmaa, <span data-i18n="Helsinki">Helsinki</span></dd>
             </div>
           </div>
 
@@ -92,7 +96,19 @@
             <dl class="space-y-3 text-sm">
               <div>
                 <dt class="font-semibold text-neutral-900" data-i18n="Vanhemmat:">Vanhemmat:</dt>
-                <dd class="text-neutral-700">Robert Optatus Silander <span data-i18n="ja">ja</span> <a href="./silander-maria-georgina.html" class="text-blue-600 hover:text-blue-800">Maria Georgina Silander</a></dd>
+                <dd class="text-neutral-700"><a href="./jankes-bros-fredrik.html" class="text-blue-600 hover:text-blue-800">Bror Fredrik Jankes</a> <span data-i18n="ja">ja</span> <a href="./jankes-sigrid-maria.html" class="text-blue-600 hover:text-blue-800">Sigrid Maria Jankes</a></dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Puoliso:">Puoliso:</dt>
+                <dd class="text-neutral-700"><a href="./jankes-hjordis-irene.html" class="text-blue-600 hover:text-blue-800">Hjördis Irene Jankes</a></dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Lapset:">Lapset:</dt>
+                <dd class="text-neutral-700">Benita Jankes <span data-i18n="ja">ja</span> Henrik Jankes</dd>
+              </div>
+              <div>
+                <dt class="font-semibold text-neutral-900" data-i18n="Sisarukset:">Sisarukset:</dt>
+                <dd class="text-neutral-700">Brita Lindroos <span data-i18n="ja">ja</span> Doris Margareta Grönstrand</dd>
               </div>
             </dl>
           </div>

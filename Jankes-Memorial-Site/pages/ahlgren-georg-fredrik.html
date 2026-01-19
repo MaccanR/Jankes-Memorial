@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,7 +52,7 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
       <h1 class="text-4xl md:text-5xl font-semibold mb-2">Ahlgren Georg Fredrik</h1>
     </div>
   </header>
@@ -63,14 +63,14 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Ahlgren Georg Fredrik" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Ahlgren Georg Fredrik" class="w-full h-full object-cover">
         </div>
       </div>
 
       <!-- Content -->
       <div class="md:col-span-2">
         <div class="bg-white rounded-lg p-8 border border-neutral-200">
-          <h2 class="text-2xl font-semibold mb-4">Henkilötiedot</h2>
+          <h2 class="text-2xl font-semibold mb-4" data-i18n="Henkilötiedot">Henkilötiedot</h2>
           
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
@@ -79,11 +79,11 @@
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700">Ei tiedossa</dd>
+              <dd class="text-neutral-700" data-i18n="Ei tiedossa">Ei tiedossa</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
-              <dd class="text-neutral-700">Ei tiedossa (haudattu 12. <span data-i18n="toukokuuta">toukokuuta</span> 1901)</dd>
+              <dd class="text-neutral-700"><span data-i18n="Ei tiedossa">Ei tiedossa</span> (<span data-i18n="haudattu">haudattu</span> 12. <span data-i18n="toukokuuta">toukokuuta</span> 1901)</dd>
             </div>
           </div>
         </div>
@@ -95,7 +95,7 @@
   <footer class="bg-neutral-900 text-neutral-300 mt-16">
     <div class="max-w-5xl mx-auto px-6 py-10 text-center text-sm">
       <p data-i18n="© Jankesin perheen muistosivusto">© Jankesin perheen muistosivusto</p>
-      <p class="mt-2" data-i18n="Sivusto on tarkoitettu muistamiseen <span data-i18n="ja">ja</span> kunnioitukseen.">Sivusto on tarkoitettu muistamiseen <span data-i18n="ja">ja</span> kunnioitukseen.</p>
+      <p class="mt-2" data-i18n="footer-jankes-message">Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.</p>
     </div>
   </footer>
 

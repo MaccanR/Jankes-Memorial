@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jankes Sigrid Maria — Jankesin perhe</title>
-  <meta name="description" content="Muistosivusto Jankes Sigrid Maria -henkilöstä." />
+  <title>Jankes Bros Fredrik — Jankesin perhe</title>
+  <meta name="description" content="Muistosivusto Jankes Bros Fredrik -henkilöstä." />
 
   <!-- Tailwind CSS CDN for quick styling -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,8 +52,8 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
-      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Sigrid Maria</h1>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Bros Fredrik</h1>
     </div>
   </header>
 
@@ -63,27 +63,27 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Jankes Sigrid Maria" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Jankes Bros Fredrik" class="w-full h-full object-cover">
         </div>
       </div>
 
       <!-- Content -->
       <div class="md:col-span-2">
         <div class="bg-white rounded-lg p-8 border border-neutral-200">
-          <h2 class="text-2xl font-semibold mb-4" data-i18n="Henkilötiedot">Henkilötiedot</h2>
+          <h2 class="text-2xl font-semibold mb-4">Henkilötiedot</h2>
           
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Sukupuoli:">Sukupuoli:</dt>
-              <dd class="text-neutral-700" data-i18n="Nainen">Nainen</dd>
+              <dd class="text-neutral-700" data-i18n="Mies">Mies</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700">21. <span data-i18n="maaliskuuta">maaliskuuta</span> 1886</dd>
+              <dd class="text-neutral-700">18. <span data-i18n="heinäkuuta">heinäkuuta</span> 1881 <span data-i18n="Helsingissä">Helsingissä</span></dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
-              <dd class="text-neutral-700">18. <span data-i18n="marraskuuta">marraskuuta</span> 1960</dd>
+              <dd class="text-neutral-700">9. <span data-i18n="maaliskuuta">maaliskuuta</span> 1963 (81-<span data-i18n="vuotias">vuotias</span>)</dd>
             </div>
           </div>
 
@@ -92,19 +92,19 @@
             <dl class="space-y-3 text-sm">
               <div>
                 <dt class="font-semibold text-neutral-900" data-i18n="Vanhemmat:">Vanhemmat:</dt>
-                <dd class="text-neutral-700">John Henriksson Höckert <span data-i18n="ja">ja</span> Hulda Sigrid Höckert</dd>
+                <dd class="text-neutral-700"><a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik Jankes</a> <span data-i18n="ja">ja</span> <a href="../index.html" class="text-blue-600 hover:text-blue-800">Maria Amanda Jankes</a></dd>
               </div>
               <div>
-                <dt class="font-semibold text-neutral-900">Puoliso:</dt>
-                <dd class="text-neutral-700"><a href="./jankes-bros-fredrik.html" class="text-blue-600 hover:text-blue-800">Bror Fredrik Jankes</a></dd>
+                <dt class="font-semibold text-neutral-900" data-i18n="Puoliso:">Puoliso:</dt>
+                <dd class="text-neutral-700"><a href="./jankes-sigrid-maria.html" class="text-blue-600 hover:text-blue-800">Sigrid Maria Jankes</a></dd>
               </div>
               <div>
-                <dt class="font-semibold text-neutral-900">Lapset:</dt>
-                <dd class="text-neutral-700">Brita Lindroos <span data-i18n="ja">ja</span> <a href="./jankes-bror-gunnar.html" class="text-blue-600 hover:text-blue-800">Bror Gunnar Jankes</a></dd>
+                <dt class="font-semibold text-neutral-900" data-i18n="Lapset:">Lapset:</dt>
+                <dd class="text-neutral-700">Brita Lindroos, <a href="./jankes-bror-gunnar.html" class="text-blue-600 hover:text-blue-800">Bror Gunnar Jankes</a> <span data-i18n="ja">ja</span> Doris Margareta Janker</dd>
               </div>
               <div>
-                <dt class="font-semibold text-neutral-900">Sisarukset:</dt>
-                <dd class="text-neutral-700">Mikael Höckert, Alli Johanna Penschke, Toini Sofia Junnelius, Arne Höckert, Anna Lisa Höckert</dd>
+                <dt class="font-semibold text-neutral-900" data-i18n="Sisarukset:">Sisarukset:</dt>
+                <dd class="text-neutral-700"><a href="./silander-maria-georgina.html" class="text-blue-600 hover:text-blue-800">Maria Georgina Silander</a>, <a href="./ahlgren-amanda-fredrika.html" class="text-blue-600 hover:text-blue-800">Amanda Fredrika Ahlgren</a>, <a href="./jankes-karl-emil.html" class="text-blue-600 hover:text-blue-800">Karl Emil Jankes</a>, <a href="./sidorow-emilia-vilhelmina.html" class="text-blue-600 hover:text-blue-800">Emilia Wilhelmina Sidorow</a>, <a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik</a>, <a href="./roos-elsa-irene.html" class="text-blue-600 hover:text-blue-800">Elsa Irene</a> <span data-i18n="ja">ja</span> <a href="./jankes-carl-emil.html" class="text-blue-600 hover:text-blue-800">Carl Emil</a></dd>
               </div>
             </dl>
           </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jankes Arthur — Jankesin perhe</title>
-  <meta name="description" content="Muistosivusto Jankes Arthur -henkilöstä." />
+  <title>Lindh Fredrik Mikael — Jankesin perhe</title>
+  <meta name="description" content="Muistosivusto Lindh Fredrik Mikael -henkilöstä." />
 
   <!-- Tailwind CSS CDN for quick styling -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,8 +52,8 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
-      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Arthur</h1>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Lindh Fredrik Mikael</h1>
     </div>
   </header>
 
@@ -63,27 +63,27 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Jankes Arthur" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Lindh Fredrik Mikael" class="w-full h-full object-cover">
         </div>
-      </div> data-i18n="Henkilötiedot">Henkilötiedot</h2>
+      </div>
+
+      <!-- Content -->
+      <div class="md:col-span-2">
+        <div class="bg-white rounded-lg p-8 border border-neutral-200">
+          <h2 class="text-2xl font-semibold mb-4" data-i18n="Henkilötiedot">Henkilötiedot</h2>
           
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
-              <dt class="font-semibold text-neutral-900" data-i18n="Sukupuoli:">Sukupuoli:</dt>
-              <dd class="text-neutral-700" data-i18n="Mies">Mies</dd>
-            </div>
-            <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700" data-i18n="Ei tiedossa">Ei tiedossa</dd>
+              <dd class="text-neutral-700">1960</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
-              <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:3">
-              <dt class="font-semibold text-neutral-900">Syntynyt:</dt>
-              <dd class="text-neutral-700">Ei tiedossa</dd>
+              <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
+              <dd class="text-neutral-700">2022</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
-              <dt class="font-semibold text-neutral-900">Kuollut:</dt>
-              <dd class="text-neutral-700">Ei tiedossa (haudattu 10. <span data-i18n="elokuuta">elokuuta</span> 1880)</dd>
+              <dt class="font-semibold text-neutral-900" data-i18n="Hautauspäivä:">Hautauspäivä:</dt>
+              <dd class="text-neutral-700">30. <span data-i18n="huhtikuuta">huhtikuuta</span> 2022</dd>
             </div>
           </div>
         </div>

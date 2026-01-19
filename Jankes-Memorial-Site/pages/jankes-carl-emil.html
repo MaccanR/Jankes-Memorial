@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jankes Sofia — Jankesin perhe</title>
-  <meta name="description" content="Muistosivusto Jankes Sofia -henkilöstä." />
+  <title>Jankes Carl Emil — Jankesin perhe</title>
+  <meta name="description" content="Muistosivusto Jankes Carl Emil -henkilöstä." />
 
   <!-- Tailwind CSS CDN for quick styling -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -40,7 +40,7 @@
       font-weight: 600;
     }
   </style>
-  <script src="./i18n.js"></script>
+  <script src="../assets/js/i18n.js"></script>
 </head>
 <body class="bg-neutral-50 text-neutral-800">
 
@@ -52,8 +52,8 @@
         <button class="lang-toggle active" data-lang="fi" onclick="changeLanguage('fi')">FI</button>
         <button class="lang-toggle" data-lang="sv" onclick="changeLanguage('sv')">SV</button>
       </div>
-      <a href="./index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
-      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Sofia</h1>
+      <a href="../index.html" class="text-neutral-400 hover:text-neutral-100 text-sm mb-4 inline-block" data-i18n="Palaa pääsivulle">← Palaa pääsivulle</a>
+      <h1 class="text-4xl md:text-5xl font-semibold mb-2">Jankes Carl Emil</h1>
     </div>
   </header>
 
@@ -63,7 +63,7 @@
       <!-- Image -->
       <div class="md:col-span-1">
         <div class="rounded-lg overflow-hidden shadow-lg bg-neutral-200 aspect-square">
-          <img src="./images/placeholder.jpg" alt="Jankes Sofia" class="w-full h-full object-cover">
+          <img src="../assets/images/placeholder.jpg" alt="Jankes Carl Emil" class="w-full h-full object-cover">
         </div>
       </div>
 
@@ -75,16 +75,30 @@
           <div class="space-y-4">
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Sukupuoli:">Sukupuoli:</dt>
-              <dd class="text-neutral-700" data-i18n="Nainen">Nainen</dd>
+              <dd class="text-neutral-700" data-i18n="Mies">Mies</dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Syntynyt:">Syntynyt:</dt>
-              <dd class="text-neutral-700">29. <span data-i18n="maaliskuuta">maaliskuuta</span> 1801</dd>
+              <dd class="text-neutral-700">16. <span data-i18n="maaliskuuta">maaliskuuta</span> 1884 <span data-i18n="Helsingissä">Helsingissä</span></dd>
             </div>
             <div class="border-b border-neutral-200 pb-3">
               <dt class="font-semibold text-neutral-900" data-i18n="Kuollut:">Kuollut:</dt>
-              <dd class="text-neutral-700">17. <span data-i18n="tammikuuta">tammikuuta</span> 1889 (87-<span data-i18n="vuotias">vuotias</span>)</dd>
+              <dd class="text-neutral-700">26. <span data-i18n="heinäkuuta">heinäkuuta</span> 1952 (68-<span data-i18n="vuotias">vuotias</span>) <span data-i18n="Helsingissä">Helsingissä</span></dd>
             </div>
+            <div class="border-b border-neutral-200 pb-3">
+              <dt class="font-semibold text-neutral-900" data-i18n="Ammatti:">Ammatti:</dt>
+              <dd class="text-neutral-700" data-i18n="Suomalainen taidemaalari">Suomalainen taidemaalari</dd>
+            </div>
+          </div>
+
+          <div class="border-t border-neutral-200 pt-6 mt-6">
+            <h3 class="text-lg font-semibold mb-4" data-i18n="Tietoa">Tietoa</h3>
+            <p class="text-neutral-700 text-sm mb-4" data-i18n="carl-emil-biography">
+              Carl Emil Jankes oli suomalainen taidemaalari. Hän opiskeli Helsingin yliopiston piirustussalissa 1905–1906 ja Suomen taideyhdistyksen piirustuskoulussa 1905–1908. Jankes teki opintomatkat Saksaan 1905 ja 1907, Pariisiin 1909-1913 sekä Pariisiin ja Roomaan 1926. Hänen töitään oli ensimmäisen kerran näytteillä Helsingissä 1910. Jankes toimi Vapaan taidekoulun opettajana 1936–1939.
+            </p>
+            <p class="text-neutral-700 text-sm mb-4" data-i18n="carl-emil-painting">
+              Jankes maalasi asetelmia, henkilökuvia ja maisemia.
+            </p>
           </div>
 
           <div class="border-t border-neutral-200 pt-6 mt-6">
@@ -92,19 +106,15 @@
             <dl class="space-y-3 text-sm">
               <div>
                 <dt class="font-semibold text-neutral-900" data-i18n="Vanhemmat:">Vanhemmat:</dt>
-                <dd class="text-neutral-700">Erik Jakobsson Tallberg <span data-i18n="ja">ja</span> Maria Elisabet Bergström (Pagenkoff)</dd>
+                <dd class="text-neutral-700"><a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik Jankes</a> <span data-i18n="ja">ja</span> Maria Amanda Jankes</dd>
               </div>
               <div>
                 <dt class="font-semibold text-neutral-900" data-i18n="Puoliso:">Puoliso:</dt>
-                <dd class="text-neutral-700">Daniel Reinhold Jankes</dd>
+                <dd class="text-neutral-700">Margit Jankes</dd>
               </div>
               <div>
-                <dt class="font-semibold text-neutral-900" data-i18n="Lapset:">Lapset:</dt>
-                <dd class="text-neutral-700">Anders Birger Tallberg, Karolina Charlotta Nyberg, Carl Reinhold Jankes, <a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik Jankes</a></dd>
-              </div>
-              <div>
-                <dt class="font-semibold text-neutral-900">Sisarukset:</dt>
-                <dd class="text-neutral-700">Erik Eriksson Tallberg, Anders Tallberg, Eva Kristina Selin</dd>
+                <dt class="font-semibold text-neutral-900" data-i18n="Sisarukset:">Sisarukset:</dt>
+                <dd class="text-neutral-700"><a href="./silander-maria-georgina.html" class="text-blue-600 hover:text-blue-800">Maria Georgina Silander</a>, <a href="./ahlgren-amanda-fredrika.html" class="text-blue-600 hover:text-blue-800">Amanda Fredrika Ahlgren</a>, <a href="./sidorow-emilia-vilhelmina.html" class="text-blue-600 hover:text-blue-800">Emilia Wilhelmina Sidorow</a>, <a href="./jankes-georg-fredrik.html" class="text-blue-600 hover:text-blue-800">Georg Fredrik</a>, <a href="./jankes-bros-fredrik.html" class="text-blue-600 hover:text-blue-800">Bror Fredrik</a>, <a href="./jankes-karl-emil.html" class="text-blue-600 hover:text-blue-800">Karl Emil Jankes</a>, <a href="./roos-elsa-irene.html" class="text-blue-600 hover:text-blue-800">Elsa Irene</a></dd>
               </div>
             </dl>
           </div>
@@ -117,7 +127,7 @@
   <footer class="bg-neutral-900 text-neutral-300 mt-16">
     <div class="max-w-5xl mx-auto px-6 py-10 text-center text-sm">
       <p data-i18n="© Jankesin perheen muistosivusto">© Jankesin perheen muistosivusto</p>
-      <p class="mt-2" data-i18n="Sivusto on tarkoitettu muistamiseen <span data-i18n="ja">ja</span> kunnioitukseen.">Sivusto on tarkoitettu muistamiseen <span data-i18n="ja">ja</span> kunnioitukseen.</p>
+      <p class="mt-2" data-i18n="footer-jankes-message">Sivusto on tarkoitettu muistamiseen <span>ja</span> kunnioitukseen.</p>
     </div>
   </footer>
 
