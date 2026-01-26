@@ -151,10 +151,6 @@
   <section class="bg-gradient-to-b from-neutral-50 to-white py-12">
     <div class="max-w-4xl mx-auto px-6">
       <div class="rounded-xl overflow-hidden shadow-lg mb-8">
-        <img src="./assets/images/hautakirja.jpg" alt="G.F.Jankesin Suku" class="w-full h-auto object-cover">
-      </div>
-
-      <div class="rounded-xl overflow-hidden shadow-lg mb-8">
         <img src="./assets/images/jankesmemorialphoto.jpg" alt="Jankesin perheen muistokuva" class="w-full h-auto object-cover">
       </div>
 
@@ -215,19 +211,22 @@
     <h2 class="text-2xl font-semibold mb-6" data-i18n="Valokuvia">Valokuvia</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
-        <img src="./assets/images/Dokumentti_kuva_1.jpg" alt="Dokumentti kuva 1" class="w-full h-full object-cover gallery-img" onclick="openLightbox(0)">
+        <img src="./assets/images/hautakirja.jpg" alt="G.F.Jankesin Suku" class="w-full h-full object-cover gallery-img" onclick="openLightbox(0)">
       </div>
       <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
-        <img src="./assets/images/Hautakuva_1.jpg" alt="Hautakuva 1" class="w-full h-full object-cover gallery-img" onclick="openLightbox(1)">
+        <img src="./assets/images/Dokumentti_kuva_1.jpg" alt="Dokumentti kuva 1" class="w-full h-full object-cover gallery-img" onclick="openLightbox(1)">
       </div>
       <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
-        <img src="./assets/images/Hautakuva_2.jpg" alt="Hautakuva 2" class="w-full h-full object-cover gallery-img" onclick="openLightbox(2)">
+        <img src="./assets/images/Hautakuva_1.jpg" alt="Hautakuva 1" class="w-full h-full object-cover gallery-img" onclick="openLightbox(2)">
       </div>
       <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
-        <img src="./assets/images/Hautakuva_3.jpg" alt="Hautakuva 3" class="w-full h-full object-cover gallery-img" onclick="openLightbox(3)">
+        <img src="./assets/images/Hautakuva_2.jpg" alt="Hautakuva 2" class="w-full h-full object-cover gallery-img" onclick="openLightbox(3)">
       </div>
       <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
-        <img src="./assets/images/Hautakuva_4.jpg" alt="Hautakuva 4" class="w-full h-full object-cover gallery-img" onclick="openLightbox(4)">
+        <img src="./assets/images/Hautakuva_3.jpg" alt="Hautakuva 3" class="w-full h-full object-cover gallery-img" onclick="openLightbox(4)">
+      </div>
+      <div class="aspect-square bg-neutral-200 rounded overflow-hidden">
+        <img src="./assets/images/Hautakuva_4.jpg" alt="Hautakuva 4" class="w-full h-full object-cover gallery-img" onclick="openLightbox(5)">
       </div>
     </div>
   </section>
@@ -256,6 +255,7 @@
   <script>
     // Lightbox functionality
     const images = [
+      { src: './assets/images/hautakirja.jpg', alt: 'G.F.Jankesin Suku' },
       { src: './assets/images/Dokumentti_kuva_1.jpg', alt: 'Dokumentti kuva 1' },
       { src: './assets/images/Hautakuva_1.jpg', alt: 'Hautakuva 1' },
       { src: './assets/images/Hautakuva_2.jpg', alt: 'Hautakuva 2' },
