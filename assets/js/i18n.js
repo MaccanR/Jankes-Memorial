@@ -71,7 +71,8 @@ const translations = {
     'ja': 'ja',
     'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013': 'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013',
     'indikoi_comment': '("\\ indikoi vinoon alas oikealle)',
-    'footer-jankes-message': 'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.'
+    'footer-jankes-message': 'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.',
+    'Tietosuojaseloste': 'Tietosuojaseloste'
   },
   sv: {
     'Palaa pääsivulle': 'Tillbaka till startsidan',
@@ -146,13 +147,31 @@ const translations = {
     'litet framför de andra': 'litet framför de andra',
     'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013': 'Originalfotot inskannat och texten renskriven av Mona Grönstrand 13.11.2013',
     'indikoi_comment': '("\\ indikerar snett ned till höger)',
-    'footer-jankes-message': 'Webbplatsen är avsedd för minnet och respekt.'
+    'footer-jankes-message': 'Webbplatsen är avsedd för minnet och respekt.',
+    'Tietosuojaseloste': 'Dataskyddsbeskrivning',
+    '1. Sivujen tarkoitus': '1. Sidans syfte',
+    'Tämän sivuston tarkoituksena on esitellä sukuhautaan haudattujen henkilöiden elämäntietoja ja sukuyhteyksiä. Sivusto toimii osana suvun historian tallentamista ja kulttuuriperinnön vaalimista.': 'Syftet med denna webbplats är att presentera livsuppgifter och släktrelationer för personer som är begravda i familjegraven. Webbplatsen är en del av dokumentationen av släktens historia och bevarandet av kulturarvet.',
+    '2. Käsiteltävät tiedot': '2. Uppgifter som behandlas',
+    'Sivustolla julkaistaan vain edesmenneitä henkilöitä* koskevia tietoja, kuten:': 'På webbplatsen publiceras endast uppgifter om avlidna personer*, såsom:',
+    'nimi': 'namn',
+    'syntymä- ja kuolinpäivä': 'födelse- och dödsdag',
+    'puolison nimi (vain jos puoliso on myös edesmenneenä)': 'makens/makans namn (endast om maken/makan också är avliden)',
+    'lasten ja sisarusten nimet (vain jos he ovat edesmenneitä)': 'barnens och syskonens namn (endast om de är avlidna)',
+    'lyhyet elämäntiedot tai sukuyhteydet': 'korta livsuppgifter eller släktrelationer',
+    '* Elossa olevien henkilöiden henkilötietoja ei julkaista. Ellei kyseisiltä henkilöiltä ole saatu siihen lupaa.': '* Personuppgifter om levande personer publiceras inte, om inte uttryckligt tillstånd har erhållits.',
+    '3. Tietojen lähteet': '3. Källor till uppgifterna',
+    'Tiedot perustuvat suvun omiin arkistoihin, julkisiin sukututkimuslähteisiin, hautausmaan tietoihin sekä historiallisiin asiakirjoihin. Kaikki julkaistut tiedot ovat joko julkisia tai suvun omistamia.': 'Uppgifterna baseras på släktens egna arkiv, offentliga släktforskningskällor, begravningsplatsens uppgifter samt historiska dokument. Alla publicerade uppgifter är antingen offentliga eller ägs av släkten.',
+    '4. Tietosuojalainsäädäntö': '4. Dataskyddslagstiftning',
+    'EU:n yleinen tietosuoja-asetus (GDPR) ja Suomen tietosuojalaki koskevat vain eläviä henkilöitä.': 'EU:s allmänna dataskyddsförordning (GDPR) och den finska dataskyddslagen gäller endast levande personer.',
+    '*Koska sivustolla käsitellään ainoastaan edesmenneitä henkilöitä koskevia tietoja, sivusto ei kuulu henkilötietolainsäädännön soveltamisalaan.': '*Eftersom webbplatsen endast behandlar uppgifter om avlidna personer omfattas den inte av personuppgiftslagstiftningen.',
+    '5. Yhteydenotot ja korjaukset': '5. Kontakt och rättelser',
+    'Jos huomaat sivustolla virheitä tai haluat keskustella sisällöstä, voit ottaa yhteyttä sivun ylläpitäjään. Korjaukset tehdään niin pian kuin mahdollista.': 'Om du upptäcker fel på webbplatsen eller vill diskutera innehållet kan du kontakta webbplatsens administratör. Rättelser görs så snart som möjligt.'
   }
 };
 
 // Alusta kieli
 function initLanguage() {
-  const savedLang = localStorage.getItem('pageLanguage') || 'fi';
+  const savedLang = localStorage.getItem('pageLanguage') || 'sv';
   changeLanguage(savedLang);
   updateLanguageButtons(savedLang);
 }
