@@ -1,0 +1,12 @@
+{
+  "name": "jankes-memorial",
+  "version": "1.0.0",
+  "description": "Static memorial website for the Jankes family",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/i18n.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
