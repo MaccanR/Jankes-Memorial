@@ -72,7 +72,25 @@ const translations = {
     'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013': 'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013',
     'indikoi_comment': '("\\ indikoi vinoon alas oikealle)',
     'footer-jankes-message': 'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.',
-    'Tietosuojaseloste': 'Tietosuojaseloste'
+    'Tietosuojaseloste': 'Tietosuojaseloste',
+    // Tietosuojaseloste page
+    '1. Sivujen tarkoitus': '1. Sivujen tarkoitus',
+    'Tämän sivuston tarkoituksena on esitellä sukuhautaan haudattujen henkilöiden elämäntietoja ja sukuyhteyksiä. Sivusto toimii osana suvun historian tallentamista ja kulttuuriperinnön vaalimista.': 'Tämän sivuston tarkoituksena on esitellä sukuhautaan haudattujen henkilöiden elämäntietoja ja sukuyhteyksiä. Sivusto toimii osana suvun historian tallentamista ja kulttuuriperinnön vaalimista.',
+    '2. Käsiteltävät tiedot': '2. Käsiteltävät tiedot',
+    'Sivustolla julkaistaan vain edesmenneitä henkilöitä* koskevia tietoja, kuten:': 'Sivustolla julkaistaan vain edesmenneitä henkilöitä* koskevia tietoja, kuten:',
+    'nimi': 'nimi',
+    'syntymä- ja kuolinpäivä': 'syntymä- ja kuolinpäivä',
+    'puolison nimi (vain jos puoliso on myös edesmenneenä)': 'puolison nimi (vain jos puoliso on myös edesmenneenä)',
+    'lasten ja sisarusten nimet (vain jos he ovat edesmenneitä)': 'lasten ja sisarusten nimet (vain jos he ovat edesmenneitä)',
+    'lyhyet elämäntiedot tai sukuyhteydet': 'lyhyet elämäntiedot tai sukuyhteydet',
+    '* Elossa olevien henkilöiden henkilötietoja ei julkaista. Ellei kyseisiltä henkilöiltä ole saatu siihen lupaa.': '* Elossa olevien henkilöiden henkilötietoja ei julkaista. Ellei kyseisiltä henkilöiltä ole saatu siihen lupaa.',
+    '3. Tietojen lähteet': '3. Tietojen lähteet',
+    'Tiedot perustuvat suvun omiin arkistoihin, julkisiin sukututkimuslähteisiin, hautausmaan tietoihin sekä historiallisiin asiakirjoihin. Kaikki julkaistut tiedot ovat joko julkisia tai suvun omistamia.': 'Tiedot perustuvat suvun omiin arkistoihin, julkisiin sukututkimuslähteisiin, hautausmaan tietoihin sekä historiallisiin asiakirjoihin. Kaikki julkaistut tiedot ovat joko julkisia tai suvun omistamia.',
+    '4. Tietosuojalainsäädäntö': '4. Tietosuojalainsäädäntö',
+    'EU:n yleinen tietosuoja-asetus (GDPR) ja Suomen tietosuojalaki koskevat vain eläviä henkilöitä.': 'EU:n yleinen tietosuoja-asetus (GDPR) ja Suomen tietosuojalaki koskevat vain eläviä henkilöitä.',
+    '*Koska sivustolla käsitellään ainoastaan edesmenneitä henkilöitä koskevia tietoja, sivusto ei kuulu henkilötietolainsäädännön soveltamisalaan.': '*Koska sivustolla käsitellään ainoastaan edesmenneitä henkilöitä koskevia tietoja, sivusto ei kuulu henkilötietolainsäädännön soveltamisalaan.',
+    '5. Yhteydenotot ja korjaukset': '5. Yhteydenotot ja korjaukset',
+    'Jos huomaat sivustolla virheitä tai haluat keskustella sisällöstä, voit ottaa yhteyttä sivun ylläpitäjään. Korjaukset tehdään niin pian kuin mahdollista.': 'Jos huomaat sivustolla virheitä tai haluat keskustella sisällöstä, voit ottaa yhteyttä sivun ylläpitäjään. Korjaukset tehdään niin pian kuin mahdollista.'
   },
   sv: {
     'Palaa pääsivulle': 'Tillbaka till startsidan',
