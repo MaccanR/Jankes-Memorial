@@ -180,11 +180,120 @@ const translations = {
     '*Koska sivustolla käsitellään ainoastaan edesmenneitä henkilöitä koskevia tietoja, sivusto ei kuulu henkilötietolainsäädännön soveltamisalaan.': '*Eftersom webbplatsen endast behandlar uppgifter om avlidna personer omfattas den inte av personuppgiftslagstiftningen.',
     '5. Yhteydenotot ja korjaukset': '5. Kontakt och rättelser',
     'Jos huomaat sivustolla virheitä tai haluat keskustella sisällöstä, voit ottaa yhteyttä sivun ylläpitäjään. Korjaukset tehdään niin pian kuin mahdollista.': 'Om du upptäcker fel på webbplatsen eller vill diskutera innehållet kan du kontakta webbplatsens administratör. Rättelser görs så snart som möjligt.'
+  },
+  en: {
+    'Palaa pääsivulle': 'Back to home page',
+    'Henkilötiedot': 'Personal details',
+    'Lähisukulaiset': 'Immediate family',
+    'Tietoa': 'Information',
+    'Tiedoa': 'Information',
+    'Sukupuoli:': 'Gender:',
+    'Syntynyt:': 'Born:',
+    'Kuollut:': 'Died:',
+    'Hautauspäivä:': 'Burial date:',
+    'Ammatti:': 'Occupation:',
+    'Vanhemmat:': 'Parents:',
+    'Puoliso:': 'Spouse:',
+    'Puolisot:': 'Spouses:',
+    'Lapset:': 'Children:',
+    'Sisarukset:': 'Siblings:',
+    'Nainen': 'Female',
+    'Mies': 'Male',
+    'Ei tiedossa': 'Unknown',
+    'haudattu': 'buried',
+    'ja': 'and',
+    'vuotias': 'years old',
+    'Helsinki': 'Helsinki',
+    'Helsingissä': 'in Helsinki',
+    'Sukuhauta': 'Family Grave',
+    'Jankesin': 'Jankes',
+    'Suomalainen taidemaalari': 'Finnish painter',
+    'carl-emil-biography': 'Carl Emil Jankes was a Finnish painter. He studied at the drawing hall of the University of Helsinki in 1905–1906 and at the drawing school of the Finnish Art Society in 1905–1908. Jankes made study trips to Germany in 1905 and 1907, to Paris in 1909-1913, and to Paris and Rome in 1926. His works were first exhibited in Helsinki in 1910. Jankes worked as a teacher at the Free Art School in 1936–1939.',
+    'carl-emil-painting': 'Jankes painted still lifes, portraits and landscapes.',
+    'tammikuuta': 'January',
+    'helmikuuta': 'February',
+    'maaliskuuta': 'March',
+    'huhtikuuta': 'April',
+    'toukokuuta': 'May',
+    'kesäkuuta': 'June',
+    'heinäkuuta': 'July',
+    'elokuuta': 'August',
+    'syyskuuta': 'September',
+    'lokakuuta': 'October',
+    'marraskuuta': 'November',
+    'joulukuuta': 'December',
+    '© Jankesin perheen muistosivusto': '© Jankes family memorial website',
+    'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.': 'This website is intended for remembrance and respect.',
+    'Hautakirjan vainajat': 'Deceased listed in the burial record',
+    'Hautakirja': 'Burial record',
+    'Tietoa tästä muistosivusta': 'About this memorial website',
+    'about-section-description': 'This website is dedicated to honoring the life, memories and legacy of the Jankes family. The burial record information stored on this website has been collected from the Geni service (Geni.com is an online community for genealogy), the grave register of the Helsinki Parish Union, and various investigations related to the Jankes family. The site administrator is not responsible for the accuracy of the information. If you have comments about the content, please contact Kari Roos, tel. 040 6717189, or Henrik Jankes, tel. 040 9003242.',
+    'Muistoja valokuvissa': 'Memories in photographs',
+    'Valokuvia': 'Photographs',
+    'Henkilöiden tunnistus': 'Identification of persons',
+    'Rakkaudella muistaen ja kiitollisuudella kunnioittaen': 'Remembered with love and honored with gratitude',
+    'Tämä verkkosivusto on omistettu Jankesin perheen elämän, muistojen ja perinnön kunnioittamiselle. Sivusto tarjoaa rauhallisen paikan muistamiselle, hiljentymiselle ja niiden arvojen arvostamiselle, jotka on siirretty sukupolvelta toiselle.': 'This website is dedicated to honoring the life, memories and legacy of the Jankes family. The site offers a peaceful place for remembrance, reflection, and appreciation of the values passed from one generation to the next.',
+    'hautakirja-info-box': 'Clicking a deceased person’s name opens a new page. This page contains that person’s details and memories saved there by relatives.',
+    'Kuvagallerian paikkamerkit, kuvat voidaan lisätä myöhemmin.': 'Gallery placeholders; images can be added later.',
+    'Ylhäältä vasemmalta:': 'From top left:',
+    'Seuraava kaksoisrivi, vasemmalta:': 'Next double row, from left:',
+    'Keskikenttä, vasemmalta oikealle:': 'Middle section, from left to right:',
+    'Ins. Lindblom \ Rouva Tallberg, Rovasti Engström, Georg Jankes (hieman muiden edessä), Gunnar Kraft, Hovineuvos Nyberg \ Rouva Nyberg': 'Eng. Lindblom \\ Mrs. Tallberg, Provost Engström, Georg Jankes (slightly in front of others), Gunnar Kraft, Counsellor Nyberg \\ Mrs. Nyberg',
+    'Emmy Sidorow \ Mandi Ahlgren \ Elsa Jankes, Konstantin Sidorow \ Rouva Sidorow': 'Emmy Sidorow \\ Mandi Ahlgren \\ Elsa Jankes, Konstantin Sidorow \\ Mrs. Sidorow',
+    'Hannes Ahlgren \ Rouva Lindblom o.s. Sidorow, Hulda Järnmark, Hulda Thorell': 'Hannes Ahlgren \\ Mrs. Lindblom née Sidorow, Hulda Järnmark, Hulda Thorell',
+    'Eturivi, vasemmalta:': 'Front row, from left:',
+    'edempänä': 'further ahead',
+    'hieman muiden edessä': 'slightly in front of others',
+    'o.s.': 'née',
+    'Alkuperäinen valokuva skannattu ja teksti uudelleen kirjoitettu Mona Grönstrand 13.11.2013': 'Original photo scanned and text retyped by Mona Grönstrand 13 Nov 2013',
+    'indikoi_comment': '("\\ indicates diagonally down to the right)',
+    'footer-jankes-message': 'This website is intended for remembrance and respect.',
+    'Tietosuojaseloste': 'Privacy notice',
+    '1. Sivujen tarkoitus': '1. Purpose of the pages',
+    'Tämän sivuston tarkoituksena on esitellä sukuhautaan haudattujen henkilöiden elämäntietoja ja sukuyhteyksiä. Sivusto toimii osana suvun historian tallentamista ja kulttuuriperinnön vaalimista.': 'The purpose of this website is to present life information and family connections of people buried in the family grave. The site is part of preserving family history and cultural heritage.',
+    '2. Käsiteltävät tiedot': '2. Data processed',
+    'Sivustolla julkaistaan vain edesmenneitä henkilöitä* koskevia tietoja, kuten:': 'Only information concerning deceased persons* is published on this website, such as:',
+    'nimi': 'name',
+    'syntymä- ja kuolinpäivä': 'date of birth and date of death',
+    'puolison nimi (vain jos puoliso on myös edesmenneenä)': 'name of spouse (only if the spouse is also deceased)',
+    'lasten ja sisarusten nimet (vain jos he ovat edesmenneitä)': 'names of children and siblings (only if they are deceased)',
+    'lyhyet elämäntiedot tai sukuyhteydet': 'short biographical details or family connections',
+    '* Elossa olevien henkilöiden henkilötietoja ei julkaista. Ellei kyseisiltä henkilöiltä ole saatu siihen lupaa.': '* Personal data of living persons is not published unless permission has been obtained from the persons concerned.',
+    '3. Tietojen lähteet': '3. Sources of information',
+    'Tiedot perustuvat suvun omiin arkistoihin, julkisiin sukututkimuslähteisiin, hautausmaan tietoihin sekä historiallisiin asiakirjoihin. Kaikki julkaistut tiedot ovat joko julkisia tai suvun omistamia.': 'The information is based on the family’s own archives, public genealogical sources, cemetery records, and historical documents. All published information is either public or owned by the family.',
+    '4. Tietosuojalainsäädäntö': '4. Data protection legislation',
+    'EU:n yleinen tietosuoja-asetus (GDPR) ja Suomen tietosuojalaki koskevat vain eläviä henkilöitä.': 'The EU General Data Protection Regulation (GDPR) and the Finnish Data Protection Act apply only to living persons.',
+    '*Koska sivustolla käsitellään ainoastaan edesmenneitä henkilöitä koskevia tietoja, sivusto ei kuulu henkilötietolainsäädännön soveltamisalaan.': '*Because the website only processes information about deceased persons, it is outside the scope of personal data legislation.',
+    '5. Yhteydenotot ja korjaukset': '5. Contact and corrections',
+    'Jos huomaat sivustolla virheitä tai haluat keskustella sisällöstä, voit ottaa yhteyttä sivun ylläpitäjään. Korjaukset tehdään niin pian kuin mahdollista.': 'If you notice errors on the website or would like to discuss the content, you can contact the site administrator. Corrections are made as soon as possible.'
   }
 };
 
+function ensureLanguageButtons() {
+  const languageGroups = new Set();
+  document.querySelectorAll('.lang-toggle').forEach(btn => {
+    if (btn.parentElement) {
+      languageGroups.add(btn.parentElement);
+    }
+  });
+
+  languageGroups.forEach(group => {
+    if (group.querySelector('[data-lang="en"]')) {
+      return;
+    }
+
+    const enButton = document.createElement('button');
+    enButton.className = 'lang-toggle';
+    enButton.setAttribute('data-lang', 'en');
+    enButton.textContent = 'EN';
+    enButton.addEventListener('click', () => changeLanguage('en'));
+    group.appendChild(enButton);
+  });
+}
+
 // Alusta kieli
 function initLanguage() {
+  ensureLanguageButtons();
   const savedLang = localStorage.getItem('pageLanguage') || 'sv';
   changeLanguage(savedLang);
   updateLanguageButtons(savedLang);
@@ -192,18 +301,20 @@ function initLanguage() {
 
 // Vaihda kieli
 function changeLanguage(lang) {
-  localStorage.setItem('pageLanguage', lang);
-  updateLanguageButtons(lang);
+  const targetLang = translations[lang] ? lang : 'sv';
+  document.documentElement.lang = targetLang;
+
+  localStorage.setItem('pageLanguage', targetLang);
+  updateLanguageButtons(targetLang);
   
   // Käännä kaikki teksti
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
     // Käytä aina data-i18n attribuutin arvoa avaimena
-    if (translations[lang] && translations[lang][key]) {
-      element.textContent = translations[lang][key];
-      console.log('Translated:', key, '→', translations[lang][key]);
+    if (translations[targetLang] && Object.prototype.hasOwnProperty.call(translations[targetLang], key)) {
+      element.textContent = translations[targetLang][key];
     } else {
-      console.warn('Missing translation for:', key, 'in language:', lang);
+      console.warn('Missing translation for:', key, 'in language:', targetLang);
     }
   });
 }
