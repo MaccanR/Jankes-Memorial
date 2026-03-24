@@ -52,6 +52,7 @@ const translations = {
     'about-section-description': 'Tämä verkkosivusto on omistettu Jankesin perheen elämän, muistojen ja perinnön kunnioittamiselle. Tälle verkkosivulle tallennetut hautakirjan tiedot on haettu Geni palvelusta (Geni.com on sukututkimukseen liittyvä Internetin yhteisöpalvelu), Helsingin seurakuntayhtymän hautarekisteristä ja eri henkilöiden Jankes sukuun liittyvistä selvityksistä. Sivun ylläpitäjä ei vastaa tietojen oikeellisuudesta. Jos sinulla huomautettavaa asiasisällöstä ole ystävällisesti yhteydessä Kari Roos p. 040 6717189 tai Henrik Jankes p. 040 9003242.',
     'Muistoja valokuvissa': 'Muistoja valokuvissa',
     'Valokuvia': 'Valokuvia',
+    'Kuvat': 'Kuvat',
     'Henkilöiden tunnistus': 'Henkilöiden tunnistus',
     'Rakkaudella muistaen ja kiitollisuudella kunnioittaen': 'Rakkaudella muistaen ja kiitollisuudella kunnioittaen',
     'Tämä verkkosivusto on omistettu Jankesin perheen elämän, muistojen ja perinnön kunnioittamiselle. Sivusto tarjoaa rauhallisen paikan muistamiselle, hiljentymiselle ja niiden arvojen arvostamiselle, jotka on siirretty sukupolvelta toiselle.': 'Tämä verkkosivusto on omistettu Jankesin perheen elämän, muistojen ja perinnön kunnioittamiselle. Sivusto tarjoaa rauhallisen paikan muistamiselle, hiljentymiselle ja niiden arvojen arvostamiselle, jotka on siirretty sukupolvelta toiselle.',
