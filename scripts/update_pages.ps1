@@ -3,7 +3,7 @@ $files = @(
   "ahlgren-amanda-fredrika.html",
   "ahlgren-georg-fredrik.html",
   "jankes-arthur.html",
-  "jankes-bros-fredrik.html",
+  "jankes-bror-fredrik.html",
   "jankes-carl-emil.html",
   "jankes-georg-fredrik.html",
   "jankes-hjordis-irene.html",
