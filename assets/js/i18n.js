@@ -77,6 +77,7 @@ const translations = {
     'Perhepotretissa vasemmalta:': 'Perhepotretissa vasemmalta:',
     'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria ja Aale Mikael Roos.': 'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria ja Aale Mikael Roos.',
     'Kuva on otettu noin 1930 tietämissä.': 'Kuva on otettu noin 1930 tietämissä.',
+    'Elsa ja Aale Mikael Roos.': 'Elsa ja Aale Mikael Roos.',
     'indikoi_comment': '("\\ indikoi vinoon alas oikealle)',
     'footer-jankes-message': 'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.',
     'Tietosuojaseloste': 'Tietosuojaseloste',
@@ -143,7 +144,7 @@ const translations = {
     'carl-emil-biography': 'Carl Emil Jankes var en finländsk konstnär. Han studerade vid Helsingfors universitets ritsal 1905–1906 och vid Finlands konstförenings ritskola 1905–1908. Jankes gjorde studieresa till Tyskland 1905 och 1907, till Paris 1909-1913 samt till Paris och Rom 1926. Hans verk ställdes ut för första gången i Helsingfors 1910. Jankes fungerade som lärare vid Fria konstskolan 1936–1939.',
     'carl-emil-painting': 'Jankes målade stilleben, porträtt och landskap.',
     // Footer
-    '© Jankesin perheen muistosivusto': '© Jankesin familjs minneswebbplats',
+    '© Jankesin perheen muistosivusto': '© Jankes familjs minneswebbplats',
     'Sivusto on tarkoitettu muistamiseen ja kunnioitukseen.': 'Webbplatsen är avsedd för minnet och respekt.',
     // Index page
       'Hautakirjan vainajat': 'Dödbok över familjen',
@@ -176,6 +177,7 @@ const translations = {
     'Perhepotretissa vasemmalta:': 'I familjeporträttet från vänster:',
     'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria ja Aale Mikael Roos.': 'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria och Aale Mikael Roos.',
     'Kuva on otettu noin 1930 tietämissä.': 'Bilden är tagen omkring 1930.',
+    'Elsa ja Aale Mikael Roos.': 'Elsa och Aale Mikael Roos.',
     'indikoi_comment': '("\\ indikerar snett ned till höger)',
     'footer-jankes-message': 'Webbplatsen är avsedd för minnet och respekt.',
     'Tietosuojaseloste': 'Dataskyddsbeskrivning',
@@ -270,6 +272,7 @@ const translations = {
     'Perhepotretissa vasemmalta:': 'In the family portrait, from left:',
     'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria ja Aale Mikael Roos.': 'Aale Magnus, Elsa Irene, Erik Mikael, Ulla Maria and Aale Mikael Roos.',
     'Kuva on otettu noin 1930 tietämissä.': 'The photograph was taken around 1930.',
+    'Elsa ja Aale Mikael Roos.': 'Elsa and Aale Mikael Roos.',
     'indikoi_comment': '("\\ indicates diagonally down to the right)',
     'footer-jankes-message': 'This website is intended for remembrance and respect.',
     'Tietosuojaseloste': 'Privacy notice',
